@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+        <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="https://icons.veryicon.com/png/o/miscellaneous/logo-design-of-lingzhuyun/icon-correct-24-1.png">
+</head>
+<body>
+    <style>table,th,td{border: 2px solid black;border-collapse:collapse;text-align:left;border-style:solid;border-color: rgb(34, 44, 44);}
+    th,td{background-color: rgb(213, 221, 221);padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px;border-spacing: 30px;}
+    div.relative{
+        position: relative;
+        border: 3px red solid;
+        width: 400px;
+        height: 200px;
+    }
+    div.absolute{
+        position: absolute;
+        border: 1px red solid;
+        width: 200px;
+        height: 100px;
+        top: 80px;
+        left: 40px;
+    }
+    div.fixed {
+        position:static;
+        margin: 10% 5%;
+        border: 2px solid burlywood;
+        padding: 5px;
+    }
+    p{display:none;
+        background-color: aqua;
+        display: none;
+        padding: 20px;
+    }
+    div:hover p{
+        display: block;
+    }
+    </style>
+    <table>
+        <caption>My monthly earnings</caption>
+        <tr>
+             <th style="color: blue;">Salary</th>
+            <th style="color: red;">Expenses</th>
+            <th style="color: green;">Profit</th>
+        </tr>
+        <tr>
+            <td>100,000</td>
+            <td>30,000</td>
+            <td>70,000</td>
+        </tr>
+        <tr>
+            <td>50,000</td>
+            <td>10,000</td>
+            <td>40,000</td>
+        </tr>
+        <tr>
+            <td>20,000</td>
+            <td>15,000</td>
+            <td>5,000</td>
+        </tr>
+    </table>
+    <dl>
+        <dt>IMPACT OF TECHNOLOGY ON THE SOCIETY</dt>
+        <dd>- Technology has been improved our society</dd>
+        <dt>IMPACT OF TECHNOLOGY ON THE ECONOMY</dt>
+        <dd>- Technology has made a lot of changes</dd>
+    </dl>
+    <ul class="parent">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    <iframe src="" name="iframe_a" height="450" width="1500" style="border:none;" title="visit grazac"></iframe>
+    <a href="https://www.grazacacademy.com/signup" target="iframe_a">grazacacademy.com</a>
+    <button type="button"onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+<p id="demo"></p>
+<pre>
+<code>
+    x=6;
+    y=7;
+    z=x+y;
+</code></pre>
+<kbd></kbd>
+<nav style="border: 10px;">
+    <a href="https://www.grazacacademy.com/about-us">Home</a>
+    <a href="https://www.grazacacademy.com/login">learn with us</a>
+    <a href="https://www.grazacacademy.com/contact">Contact</a>
+    <a href="https://www.grazacacademy.com/about-us">About</a>
+    <a href="https://www.grazacacademy.com/hire">hire our talent</a>
+    <form action="" autocomplete="on">
+        <fieldset>
+            <legend>personal data</legend>
+        <label for="">Firstname:</label><br>
+        <input type="text" id="finame" name="finame"><br>
+        <label for="lasname">Last name:</label><br>
+        <input type="text" id="lasname" name="lasname"><br>
+        <input type="submit" value="submit"></fieldset>
+    </form>
+    <form action="">
+        <input type="radio" id="black" name="fav_color" value="BLACK">
+        <label for="black">BLACK</label><br>
+        <input type="radio" name="fav_color" id="yellow" value="YELLOW">
+        <label for="yellow">YELLOW</label><br>
+        <input type="radio" id="blue" name="fav_color" value="BLUE">
+        <label for="blue">BLUE</label><br>
+        <input type="submit" value="submit">
+    </form>
+    <form action="">
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="lexus">
+        <label for="vehicle1">I use lexus</label><br>
+        <input type="checkbox" name="vehicle2" id="vehicle2" value="camry">
+        <label for="vehicle2">I use camry</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="sharon">
+        <label for="vehicle3">I use sharon</label><br>
+        <input type="submit" value="submit">
+    </form>
+    <form action="">
+        <label for="colors">choose a color:</label>
+        <select name="colors" id="colors">
+            <option value="blue">blue</option>
+            <option value="yellow">yellow</option>
+            <option value="black">black</option>
+        </select>
+        <input type="submit">
+    </form>
+    <textarea name="feedback">your feedback</textarea><br>
+    <input type="submit">
+    <form action="">
+        <input list="color" name="color">
+        <datalist id="color">
+            <option value="black">
+            <option value="blue">
+            <option value="red">
+            <option value="green">
+            <option value="yellow">
+        </datalist>
+        <input type="submit">
+    </form>
+    <form action="">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username"><br>
+    <label for="pwd">Password:</label>
+    <input type="password" id="pwd" name="pwd"><br>
+    <input type="submit">
+    <input type="reset">
+    </form>
+    <form action="">
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+        <input type="submit" value="Submit">
+      </form>
+      <object data="grazacacademy.html"></object>
+    <div class="relative">
+        impact of technology on the society
+        <div class="absolute">Through the educational sector</div>
+    </div>
+    <style>
+        div.sticky {
+          position: sticky;
+          top: 0;
+          padding: 5px;
+          background-color: #cae8ca;
+          border: 2px solid #4CAF50;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <p>Try to <b>scroll</b> inside this frame to understand how sticky positioning works.</p>
+        
+        <div class="sticky">I am sticky!</div>
+        
+        <div style="padding-bottom:200px">
+          <p>In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.</p>
+          <p>Scroll back up to remove the stickyness.</p>
+          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        </div>
+    <div>
+        There is a hidden message here,bring your mouse closer
+        <p>2581 is the pin</p>
+    </div>
+    <div>
+        <ul style="list-style-type: none;margin: 0px;padding: 0px;border: 2px solid;width: 150px;display: block;">
+            <li style="border-bottom: 2px solid;text-align: center;"><a href="https://www.grazacacademy.com/about-us">Home</a></li>
+            <li style="border-bottom: inherit;text-align: center;"><a href="https://www.grazacacademy.com/login">about-us</a></li>
+            <li style="border-bottom: inherit;text-align: center;"><a href="https://www.grazacacademy.com/hire">Hire our talet</a></li>
+            <li style="text-align:center;">Home</li>
+        </ul>
+    </div>
+    <div>
+        <nav style="border: 2px solid;width: 300px;padding:2px;margin: 2px;background-color: bisque;">
+        <a style="padding:3px;border-right: 5px;" href="#home">Home</a>
+        <a style="padding:3px;border-right: 5px;" href="#news">News</a>
+        <a style="padding:3px;border-right: 5px;" href="#contact">Contact</a>
+        <select name="talent" id="talent"></select>
+        </nav>
+    </div>
+</body>
+</html>

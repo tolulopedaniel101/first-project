@@ -1,0 +1,44 @@
+body{
+    background: url("/FIRST-PROJECT/img/back.png") no-repeat right;
+}
+.formdiv{
+    width: 450px;
+    border-radius: 10px;
+    /* margin: 40px auto; */
+    padding: 30px 40px;
+    display: block;
+    font-family: sans-serif;
+}
+.form{
+    margin-top: 30px;
+}
+.h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.ptext{
+    margin: 0px 0px 10px;
+}
+.formdiv label{
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+.formdiv input{
+    border: 1px solid #d9dce1;
+    border-radius: 7px;
+    color: #787676;
+    margin: 5px 0 20px;
+    padding: 10px 20px;
+    width: 100%;
+}
+.formdiv button{
+    background: #773dd3;
+    border: 1px solid #773dd3;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    margin: 10px 0 20px;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}

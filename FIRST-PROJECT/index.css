@@ -1,0 +1,9 @@
+.parent{
+    display: flex;
+    justify-content: space-between;
+}
+.parent li{
+    font-size: 24px;
+    color: brown;
+    text-decoration: none;
+}

@@ -1,0 +1,265 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.widthgh {
+    width: 100%;
+}
+
+.head {
+    color: #000000;
+    display: flex;
+    border: 1px #F1F6FF;
+    background-color: #F1F6FF;
+    border-width: auto;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.p1 {
+    margin-left: 100px;
+    font-size: 30px;
+    font-family: Rage Italic;
+    font-weight: 400;
+    line-height: 37.69px;
+    color: #000000;
+    font-style: italic;
+}
+
+.head2 {
+    color: inherit;
+    display: block;
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+a:active {
+    color: blueviolet;
+    border-bottom: 6px red solid;
+    text-decoration: none;
+}
+
+.BOOK {
+    margin-right: 71px;
+    color: #F20A0A;
+    font-weight: 500;
+}
+
+.home {
+    color: black;
+    font-weight: 500;
+}
+
+.ARTISTES {
+    color: black;
+    font-weight: 400;
+}
+
+.music {
+    color: black;
+    font-weight: 400px;
+}
+
+.vid {
+    color: black;
+    font-weight: 400;
+}
+
+.body {
+    display: flex;
+    background-color: #0D0D0D;
+    width: 100%;
+    height: 600px;
+}
+
+.ok {   
+    color: red;
+}
+
+.h1 {
+    font: Recoleta alt;
+    color: white;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72.9px;
+}
+
+.body p {
+    color: white;
+    font: Roboto;
+    font-size: 40px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 48.6px;
+    width: 453px;
+    height: 49px;
+}
+
+.body button {
+    width: 300px;
+    height: 70px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: white;
+    color: red;
+    font: Roboto;
+    font-weight: 700px;
+    line-height: 36.45px;
+}
+
+.body img {
+}
+
+.set {
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texr {
+    margin-left: 100px;
+    width: 505px;
+    height: 193px;
+}
+
+.pl {
+    width: 505px;
+    height: 70px;
+    font: Roboto;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35.16px;
+    color: black;
+}
+
+.pl2 {
+    width: 436px;
+    height: 104px;
+    font: Roboto;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25.59px;
+    color: black;
+}
+.but {
+    color: white;
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.imgf {
+    display: flex;
+    gap: 22px;
+    margin: 167px 100px 153px 91px;
+}
+.dfr{
+    align-items: center;
+    margin-right: 103px;
+}
+
+.but2 {
+    color: white;
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    text-align: center;
+}
+
+.kl {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 96px;
+}
+
+.redsa {
+    width: 641px;
+    height: 70px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35.16px;
+    color: black;
+}
+
+.redsa2 {
+    width: 438px;
+    height: 144px;
+    font: Roboto;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25.77px;
+    color: black;
+}
+
+.br5 {
+    font: roboto;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 14.32px;
+    color: black;
+}
+
+.ds {
+    margin-top: 153px;
+    width: 641px;
+    height: 228px;
+}
+
+.bd {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+.bd footer {
+    width: 675px;
+    height: 28px;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28.13px;
+    color: white;
+    padding-top: 36px;
+    margin-bottom: 36px;
+    margin-left: 382.5px;
+    margin-right: 382.5px;
+}
+
+.mic {
+    margin: 139.75px 96px 67.25px 100px;
+}
+.head2{
+    display: flex;
+    gap: 89px;
+}
+.c{ width: 90%;
+    display: flex;
+    align-items: center;
+}
+.er{
+    align-content: inherit;
+    margin-left: 261px;
+    width: 474px;
+    height: 325px;
+}
+.er h1{
+    margin-bottom: 30px;
+}
+.er p{
+    margin-bottom: 30px;
+}

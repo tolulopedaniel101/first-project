@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.widthgh {
+    width: 100%;
+}
+
+.head {
+    color: #000000;
+    display: flex;
+    border: 1px #F1F6FF;
+    background-color: #F1F6FF;
+    border-width: auto;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.p1 {
+    margin-left: 100px;
+    font-size: 30px;
+    font-family: Rage Italic;
+    font-weight: 400;
+    line-height: 37.69px;
+    color: #000000;
+    font-style: italic;
+}
+
+.head2 {
+    color: inherit;
+    display: block;
+}
+
+.head2 a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.head2 a:hover {
+    color: aqua;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.head2 a:active {
+    border-bottom: 6px red solid;
+    text-decoration: red;
+}
+
+.BOOK {
+    color: #F20A0A;
+    font-weight: 500;
+    margin-right: 70px;
+}
+
+.home {
+    color: black;
+    font-weight: 500;
+    margin: 0px 102px 0px 298px;
+}
+
+.ARTISTES {
+    color: black;
+    font-weight: 400;
+    margin-right: 69px;
+}
+
+.music {
+    color: black;
+    font-weight: 400;
+    margin-right: 98px;
+}
+.vid {
+    color: black;
+    font-weight: 400;
+    margin-right: 91px;
+}
+.set33{
+    display: flex;
+}
+.set33 h4{
+    line-height: 23.44px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: roboto;
+    width: 194px;
+    height: 23px;
+    margin-top: 73px;
+    margin-left: 100px;
+}
+.main{
+    margin: 64.5px 100px 21.5px 896px;
+    position: relative;
+    width: 150px;
+    height: 40px;
+}
+.int{
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    border: 1px black solid;
+    border-radius: 15px;
+    text-align: left;
+}
+.dope button{
+    position:sticky;
+    width: 22px;
+    height: 22px;
+    color: white;
+    cursor: pointer;
+    margin: 9px 9px 9px 120px;
+}
+.rty{
+    display: flex;
+    gap: 170px;
+}
+.frt{margin-bottom: 50px;
+    margin-left: 100px;
+}
+.wer{
+    display: flex;
+    gap: 170px;
+}
+.rtd{
+    display: flex;
+    gap: 170px;
+}
+.sa{
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+.saf{
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+.wholr h4{
+    width: 128px;
+    height: 23px;
+    font: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23.44px;
+    color: black;
+}
+.dan img{
+    width: 100%;
+}
+.wholr{
+    align-items: center;
+}
